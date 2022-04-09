@@ -1,5 +1,4 @@
-import assert from "assert";
-import { When, Then, Before } from "@cucumber/cucumber";
+import { When, Then } from "@cucumber/cucumber";
 import Greeter from "../../src/index";
 
 jest.mock(
